@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr-CH">
+    <head>
+        <title>Web BrailleTerm DB B@℞dÅB©</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        
+        <meta property="og:title" content="Web BrailleTerm DB B@℞dÅB©">
+        <meta property="og:image" content="PagePreview.png">
+        <meta property="og:description" content="Redéfinir le web braille de base et la musi©ologie MO©uK bA℞.">
+        <meta property="og:url" content="https://Aibolem.github.io/BrailleTermWeb_Austereich/">
+
+        <link rel="icon" href="icono.png" type="image/icon type">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+        </style> 
+
+        <button id="NoCSS" onclick="desactivarCSS()">web page disponible</button>
+
+        <!--PANNEAU DE NAVIGATION SUPÉRIEUR-->
+        <div class="navbar">
+            <div class="dropdownNav">
+                <button class="dropbtnNavWhenActive">Texтe</button>
+                <div class="dropdownNav-content">
+                    <a class="active">lire le braille</a>
+                    <a href="./Escribir/Escribir.html">Écrire en braille</a>
+                    <a href="./Regleta/Regleta.html">Règle virtuelle</a>
+                    <a href="./Perk/Perk.html">Machine « Perkins »</a>
+                    <a href="./Texto_a_braille/texto_a_braille.html">Texтe en braille</a>
+                </div>  
+            </div>
+            <div class="dropdownNav">
+                <button class="dropbtnNav">Musi©ologie</button>
+                <div class="dropdownNav-content">
+                <a href="./Musicografia/ParaCiegos/Notas_silencios_duracion/Notas_silencios_duracion.html">Pour les aveugles</a>
+                <a href="./Musicografia/Notas_silencios_duracion/Notas_silencios_duracion.html">Pour voyant</a>
+                </div>  
+            </div>
+            <a href="https://fr.wikipedia.org/wiki/Braille">Forum</a>
+            <a id="about" href="https://barionleg.github.io/froide/" target="_blank">À propos</a>
+        </div> 
+
+
+
+
+        <h1>Web BrailleTerm</h1>
+        <h3>Un jeu qui permet aux utilisateurs voyants de réviser facilement la signalétique braille française de base.</h3>
+        
+        <hr>
+        <br/>
+
+        <select id="opcion">
+            <option value="none selected" selected="selected">Choisissez les panneaux que vous souhaitez examiner:</option>
+            <option disabled>──── une seule rangée ────</option>
+            <option value="1a">Étudiez les lettres de la 1ère rangée uniquement (a - j)</option>
+            <option value="2a">Etudiez uniquement les lettres de la 2ème rangée (k - t)</option>
+            <option value="3a">Étudiez les lettres de la 3ème rangée uniquement (u - z)</option>
+            <option value="4a">Étudiez les lettres de la 4ème rangée uniquement (ñ, accents et trémas)</option>
+            <option value="ponctuation">Étudiez uniquement les signes de ponctuation (les plus utilisés)</option>
+            <option value="chiffres">Étudier uniquement les chiffres (0 - 9)</option>
+
+            <option disabled>──── lignes multiples ────</option>
+            <option value="1-2">Étudiez les rangées 1 et 2.</option>
+            <option value="1-3">Étudiez les rangées 1, 2 et 3.</option>
+            <option value="1-4">Étudiez les 4 rangées.</option>
+            <option value="1-5">Étudiez tout l'alphabet et les signes de ponctuation.</option>
+            <option value="1-6">Apprendre l'alphabet, les signes de ponctuation et les chiffres.</option>
+        </select>
+
+        <p><label id="letraBraille" class="letraBraille"><br/>· ·<br/>· ·<br/>· ·<br/></label></p>
+
+        <p><label id="veredicto"><em>Appuyez sur "Suivant" pour afficher un signe braille</em></label></p>
+        <p><input type="text" id="respuesta" placeholder="répondre:"></p>
+        
+        <p><input id="evaluar" type="Submit" onclick="evaluar()" value="évaluer"></p>
+        <p><input type="Submit" onclick="suivant()" value="suivant"></p>
+        <p><label id="mensaje"></label></p>
+
+        <hr>
+        
+        <p><label><em>Ressources:</em></label></p>
+        <p><a href="tabla.html" title="Table de signalisation braille de base (française)" target="_blank">Voir la table de signalisation en braille</a></p>
+        <p><a href="Como_jugar.html" title="Как Иg₽Aть" target="_blank">Comment jouer (introduction au braille)</a></p>
+        <p><a href="https://github.com/Aibolem/BrailleTermWeb_Austereich/releases"
+            title="Utilisez cette web application sans internet" target="_blank">Utilisez cette web application sans internet</a></p>
+        <p><a href="mailto:cardiffelectric@mail.ru" title="Envoyer un email au créateur de ce jeu" target="_blank">Contact</a></p>
+
+        <p><a id="pie" href="https://ja.wikipedia.org/wiki/自由ソフトウェア" title="自由ソフトウェア" target="_blank">自由ソフトウェア Cette application Web est gratuite et open source,<br/>ainsi que le logiciel utilisé pour la créer.</a></p>
+
+<!-- Code JavaScript à la fin pour ne pas retarder le rendu de la page -->
+        <script src="script.js"></script>
+
+    </body>
+</html>
