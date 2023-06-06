@@ -55,9 +55,9 @@ function NumAleatorio() {
 }
 function evaluar() {
     if(JSON.stringify(respuestas[numeroAnterior])===JSON.stringify(cajetines)) {
-        document.getElementById("veredicto").innerHTML = "¡La respuesta es <em>correcta</em>!"; 
+        document.getElementById("veredicto").innerHTML = "Ответ  <em>правильный</em>"; 
     } else {
-        document.getElementById("veredicto").innerHTML = "La respuesta es <strong>incorrecta</strong>";
+        document.getElementById("veredicto").innerHTML = "Ответ <strong>неправильный</strong>";
     }
 }
 function resetear() {
@@ -88,14 +88,14 @@ function siguiente() {
     document.getElementById("imagen").src = 'Notas/' + num + '.svg';
     resetear();
 
-    document.getElementById("veredicto").innerHTML = "<em>¿Y ahora?</em>"
+    document.getElementById("veredicto").innerHTML = "<em>и сейчас?</em>"
 }
 
 //Al abrir o recargar la página:
 resetear() //Por si el navegador guardó la última jugada
 siguiente()
-document.getElementById("veredicto").innerHTML = "Escribe el signo braille correcto para cada nota, luego presiona <em>Evaluar</em> o 'Enter'.\
-    <br/>Para mostrar una nueva letra presiona <em>Siguiente</em> o la lecla para punto ' <em>.</em> '"
+document.getElementById("veredicto").innerHTML = "Напишите правильный знак Брайля для каждой заметки, затем <em>Оценить</em> или «Ввод».\
+    <br/>Чтобы показать новую букву, <em>Следующий</em> или клавишу Точка ' <em>.</em> '"
 
 function desactivarCSS() {
     for ( i=0; i<document.styleSheets.length; i++) {
