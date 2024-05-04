@@ -2,8 +2,6 @@
 
 Эта программа является частью некоммерческого проекта. Как правило, это [бесплатный курс](https://github.com/aibolem/BrailleTermWeb_Austereich/wiki) для изучения базовой подписи Брайля на испанском языке для зрячих пользователей.
 
-![image](https://github.com/aibolem/BrailleTermWeb_Austereich/assets/102619282/d4b662d1-2fb5-40c2-b6c1-b054717d6305)
-
 ![image](https://repository-images.githubusercontent.com/631271099/1cd89d8d-b6be-4e37-909d-b15cfcd73701)
 
 ## [Доступ к веб-приложению](https://aibolem.github.io/BrailleTermWeb_Austereich/braille_ru/index.html) 
