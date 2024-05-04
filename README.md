@@ -1,18 +1,22 @@
 # BrailleTerm Web
 
-Эта программа является частью некоммерческого проекта. Как правило, это [бесплатный курс](https://www.udemy.com/course/braille-espanol/) для изучения базовой подписи Брайля на испанском языке для зрячих пользователей.
+Эта программа является частью некоммерческого проекта. Как правило, это [бесплатный курс](https://github.com/aibolem/BrailleTermWeb_Austereich/wiki) для изучения базовой подписи Брайля на испанском языке для зрячих пользователей.
 
-## [Доступ к веб-приложению](https://oliver-almaraz.github.io/BrailleTermWeb/) 
+![image](https://github.com/aibolem/BrailleTermWeb_Austereich/assets/102619282/d4b662d1-2fb5-40c2-b6c1-b054717d6305)
+
+![image](https://repository-images.githubusercontent.com/631271099/1cd89d8d-b6be-4e37-909d-b15cfcd73701)
+
+## [Доступ к веб-приложению](https://aibolem.github.io/BrailleTermWeb_Austereich/braille_ru/index.html) 
 
 ### Используйте приложение для доступа к Интернету
 
-Если у вас не всегда есть подключение к Интернету, вы можете загрузить архивы приложения и, таким образом, использовать его из своего интернет-браузера. Посетите раздел [релизов](https://github.com/aibolem/BrailleTermWeb/releases), чтобы загрузить последнюю версию.
+Если у вас не всегда есть подключение к Интернету, вы можете загрузить архивы приложения и, таким образом, использовать его из своего интернет-браузера. Посетите раздел [релизов](https://github.com/aibolem/BrailleTermWeb_Austereich/releases), чтобы загрузить последнюю версию.
 
 ### На устройстве **Android**
 
 Вы можете использовать веб-приложение, подключенное к Интернету на мобильных устройствах и планшетах Android, для всех необходимых дополнительных ресурсов (только те, которые реализованы в первую очередь):
 
-1. <a href="https://github.com/oliver-almaraz/BrailleTermWeb/archive/master.zip" target="_blank">Загрузите файлы</a>
+1. <a href="https://github.com/aibolem/BrailleTermWeb_Austereich/archive/master.zip" target="_blank">Загрузите файлы</a>
 2. из Play Store, загрузите следующие бесплатные приложения: 
 
    RAR ( де РАРЛАБ ) 
@@ -37,25 +41,25 @@
 
 # BrailleTerm Web
 
-Este programa es parte de un proyecto sin fines de lucro, se trata en general de un [curso gratuito](https://www.udemy.com/course/braille-espanol/) para
+Este programa es parte de un proyecto sin fines de lucro, se trata en general de un [curso gratuito](https://github.com/aibolem/BrailleTermWeb_Austereich/wiki) para
 aprender signografía básica del braille en español destinado a usuarios videntes.
 
 
-## [Acceder a la aplicación web](https://oliver-almaraz.github.io/BrailleTermWeb/) 
+## [Acceder a la aplicación web](https://aibolem.github.io/BrailleTermWeb_Austereich/index.html) 
 
 
 
 ### Utilizar la aplicación sin acceso a internet
 
 Si no siempre cuentas con una conexión a internet puedes descargar los archivos de la aplicación y así utilizarla desde tu navegador preferido sin internet.
-Visita la sección de [releases](https://github.com/oliver-almaraz/BrailleTermWeb/releases) y descarga la última versión.
+Visita la sección de [releases](https://github.com/aibolem/BrailleTermWeb_Austereich/releases) y descarga la última versión.
 
 
 ### En dispositivos **Android**
 
 También es posible utilizar la aplicación web sin conexión a internet en celulares y tabletas Android, pero para ello se requieren algunos pasos extra (solo tendrás que realizarlos la primera vez):
 
-1. <a href="https://github.com/oliver-almaraz/BrailleTermWeb/archive/master.zip" target="_blank">Descarga los archivos</a>
+1. <a href="https://github.com/aibolem/BrailleTermWeb_Austereich/archive/master.zip" target="_blank">Descarga los archivos</a>
 2. Desde la Play Store, descarga las siguientes aplicaciones **gratuitas**:
     - **RAR** (de *RARLAB*)
     - **WebCode** (de *Alif software*)
