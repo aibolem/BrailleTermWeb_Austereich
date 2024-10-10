@@ -98,7 +98,7 @@ function guardarTxt() {
     }  
 
     let documento = document.createElement('a');
-    let creditos = "\n\nБлагодарим вас за использование BrailleTermWeb, бесплатного приложения с открытым исходным кодом.";
+    let creditos = "\n\nБлагодарим вас за использование BrailleTermWeb, бесплатного приложения с открытым исходным кодом https://barionleg.github.io/ABC_ub_particles/index.html Aibloem .b.i. ";
     textToSave += creditos;
   
     documento.href = 'data:attachment/text,' + encodeURI(textToSave);
